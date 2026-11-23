@@ -63,17 +63,25 @@ Questions we asked the vendors
 
 What people told us:
 
-a. Student 1 (200L, Computer Science): "If I have a 10 o'clock class and the break is around 12, I already know I'm eating late. The queue at BUSA is the whole break. If I could order before the lecturer finishes and just walk and collect, that's the app I want."
+a. Student 1 (200L): "The queue can be crazy sometimes, especially between lecture periods. You can end up spending most of your break trying to buy food."
 
-b. Student 2 (300L, Accounting): "What annoys me is walking all the way there and they tell you the rice is finished. I'll ask my friend to check first, but half the time they're not around. I'd rather see it on my phone than find out standing in front of the counter."
+b. Student 2 (100L): "I mostly choose where to eat based on the price and what I'm craving. If somewhere is too crowded, I'll just go somewhere else."
 
-c. Student 3 (100L, Mass Communication): "I mostly buy snacks because queueing will make me miss the next class. If the price is the same and I don't have to stand there, I'll use it. I won't pay extra for it though, not as a 100 level."
+c. Student 3 (300L): "I've gone to buy food before and found out it had finished. It's annoying, especially when that's what you came for."
 
-d. Vendor 1 (BUSA food stall, mixed rice): "Between 12 and 1, I can't even look at my phone. Everybody is talking at once, some are asking the price, some are saying 'the one I ordered'. I write the orders on paper but by the time the rush finishes the paper is a mess. If orders just came in on a screen in order, it would be easier for me and I won't forget anybody."
+d. Student 4 (200L): "Ordering before getting there would actually be nice. At least you won't have to waste time standing in a queue."
 
-e. Vendor 2 (snacks and drinks stand): "My regulars message me on WhatsApp to keep their things aside. The problem is when I'm attending to customers I don't see the message until they're already here. And sometimes two people want the same last bottle. If the app tells me before they come, I can keep it aside properly."
+e. Student 5 (100L): "I don't really mind waiting if the food is worth it. I don't think I'd pay extra just to skip the queue."
 
-f. Survey: 26 course mates replied. 81% buy food on campus at least three times a week. 69% have waited more than 15 minutes at BUSA in one break, and 58% have walked to a vendor and found the food finished. 46% have been late to a lecture or missed one because of the queue. 62% would use an app that lets them order ahead and pay at pickup. 15% would pay an extra fee. 12 of the 26 already try to order ahead on WhatsApp.
+f. Student 6 (200L): "It would be convenient, but the ordering process has to be easy. Nobody wants another stressful thing to deal with."
+
+g. Student 7 (300L): "I'd rather pay when I get my food. I'm not really comfortable paying online before collecting it."
+
+h. Vendor 1 (BUSA food stall, mixed rice): "Between 12 and 1, I can't even look at my phone. Everybody is talking at once, some are asking the price, some are saying 'the one I ordered'. I write the orders on paper but by the time the rush finishes the paper is a mess. If orders just came in on a screen in order, it would be easier for me and I won't forget anybody."
+
+i. Vendor 2 (snacks and drinks stand): "My regulars message me on WhatsApp to keep their things aside. The problem is when I'm attending to customers I don't see the message until they're already here. And sometimes two people want the same last bottle. If the app tells me before they come, I can keep it aside properly."
+
+j. Survey: 26 course mates replied. 81% buy food on campus at least three times a week. 69% have waited more than 15 minutes at BUSA in one break, and 58% have walked to a vendor and found the food finished. 46% have been late to a lecture or missed one because of the queue. 62% would use an app that lets them order ahead and pay at pickup. 15% would pay an extra fee. 12 of the 26 already try to order ahead on WhatsApp.
 
  4. Business objectives
 
