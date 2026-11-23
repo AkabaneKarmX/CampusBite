@@ -193,7 +193,7 @@ Right now, students can only order by walking up to a vendor at BUSA. The first 
 
 Payment is not part of the MVP. Students pay at pickup, by cash or transfer, the same way they do now. We don't want to handle people's money before we know anyone wants to use the app.
 
-There are a lot of vendors at BUSA, so for the pilot we'd start with [one or two] of them and a small group of students, see what breaks, then widen it.
+There are a lot of vendors at BUSA, so for the pilot we'd start with two of them and a small group of students, see what breaks, then widen it.
 
  13. Acceptance criteria
 
@@ -222,7 +222,88 @@ a. Only the vendor who owns the order can change its status.
 b. Status moves forward only: pending, accepted, preparing, ready, collected. A vendor can reject an order while it is still pending.
 c. The student sees the new status once it changes.
 
-[Criteria for the remaining requirements to be added before submission.]
+Register and log in (FR-01)
+
+a. A student registers with a name, phone number, email and password.
+b. An email can only be registered once.
+c. The password must be at least eight characters and is hashed before it is saved.
+d. A wrong password and an unknown email both return the same error message.
+e. A logged-in user stays logged in until they log out or the session expires.
+
+Vendor registration (FR-02)
+
+a. A vendor registers with a stall name, owner name, phone number and password.
+b. The account is saved as "pending" and cannot go live without an admin.
+c. A pending vendor can log in but cannot add menu items or receive orders.
+d. A rejected vendor sees the reason on their dashboard.
+e. Only an admin can change a vendor's approval status.
+
+Mark an item sold out (FR-04)
+
+a. The vendor must be logged in and approved.
+b. One tap changes the item's state and saves it.
+c. Sold-out items stay on the menu and show as sold out.
+d. A student can't add a sold-out item to an order.
+e. The change is visible to students the next time the menu loads.
+
+Browse vendors (FR-05)
+
+a. Only approved vendors appear in the list.
+b. A suspended vendor disappears from the list.
+c. Each entry shows the stall name and whether the vendor is accepting orders.
+d. A student who is not logged in is sent to the login page.
+
+View a menu (FR-06)
+
+a. The menu shows each item's name, price and availability.
+b. An item with no photo shows a placeholder image.
+c. A sold-out item is visible but cannot be selected.
+d. An empty menu shows a message instead of a blank page.
+
+See incoming orders (FR-08)
+
+a. A new order appears on the vendor's screen within a few seconds, with no refresh.
+b. Orders are listed oldest first.
+c. Each order shows the items, quantities, student name and total.
+d. The vendor sees only orders placed with their own stall.
+e. The vendor can accept or reject an order while it is pending.
+f. Rejecting an order requires a reason, and the student sees it.
+
+See order status (FR-10)
+
+a. The student sees the status of their own orders only.
+b. The status updates when the vendor changes it, with no refresh.
+c. The status shown is always one of: pending, accepted, preparing, ready, collected, cancelled, rejected.
+
+Cancel an order (FR-11)
+
+a. A student can cancel only their own order.
+b. Cancelling is allowed only while the order is pending.
+c. A cancelled order leaves the vendor's queue.
+d. The student sees a confirmation and the status changes to "cancelled".
+
+View past orders (FR-12)
+
+a. The student sees only their own orders.
+b. Orders are listed newest first.
+c. Each entry shows the date, vendor, items, total and final status.
+d. Order history is read-only.
+
+Report a problem (FR-13)
+
+a. A student or vendor can report a problem from an order, or about a vendor.
+b. A report needs a reason and an optional description.
+c. The report saves the reporter, the order or vendor it refers to, and the time.
+d. The reporter sees a confirmation after submitting.
+e. The report appears on the admin's list.
+
+Admin review (FR-14)
+
+a. Only an admin can see pending vendors and open reports.
+b. The admin can approve or reject a pending vendor, or suspend an approved one.
+c. A suspended vendor's menu is hidden and the vendor cannot accept new orders.
+d. Orders already accepted by a suspended vendor stay visible to the student.
+e. Each admin action records which admin did it and when.
 
 14. Success metrics
 
