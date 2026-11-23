@@ -65,9 +65,24 @@ Questions we asked the vendors
 
 What people told us:
 
-[Fill this in after the interviews. Write what was actually said, including the things that go against our idea. Something like:
+## What Students Told Us
 
-- Student 1 (200L, Computer Science): "..."
+- **Student 1 (200L):** "The queue can be crazy sometimes, especially between lecture periods. You can end up spending most of your break trying to buy food."
+
+- **Student 2 (100L):** "I mostly choose where to eat based on the price and what I'm craving. If somewhere is too crowded, I'll just go somewhere else."
+
+- **Student 3 (300L):** "I've gone to buy food before and found out it had finished. It's annoying, especially when that's what you came for."
+
+- **Student 4 (200L):** "Ordering before getting there would actually be nice. At least you won't have to waste time standing in a queue."
+
+- **Student 5 (100L):** "I don't really mind waiting if the food is worth it. I don't think I'd pay extra just to skip the queue."
+
+- **Student 6 (200L):** "It would be convenient, but the ordering process has to be easy. Nobody wants another stressful thing to deal with."
+
+- **Student 7 (300L):** "I'd rather pay when I get my food. I'm not really comfortable paying online before collecting it."
+
+**Overall:** Most of the feedback pointed towards convenience, shorter waiting times and knowing whether food is available before getting to a vendor. However, affordability, trust and payment preferences were also important concerns.
+
 - Vendor 1 (name of place): "..."
 - Survey: X responses, Y% said ...]
 
