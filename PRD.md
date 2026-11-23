@@ -1,4 +1,4 @@
-CampusBite PRD
+﻿CampusBite PRD
 
 BU-209 Backend Engineering, Week 4
 Team: Group 5
@@ -22,11 +22,11 @@ it got to my turn, they ran out
 
  3. Research
 
-1. Who has the problem
+3.1 Who has the problem
 
 Mostly students on busy lecture days, and the vendors who serve them at break times. Lecturers and staff probably buy food too but we haven't looked at them, so they are outside this for now.
 
-2. How people deal with it now
+3.2 How people deal with it now
 
 From what we've seen and from talking to people,
 
@@ -35,14 +35,14 @@ b. Ask a friend who is already close to the vendor to buy for them, then send th
 c. Call or WhatsApp the vendor to order in advance. This works until the vendor is too busy to reply (Sometimes you just can't reach them) 
 d. Buy snacks or skip the meal
 
-3. Why the current options don't work well enough
+3.3 Why the current options don't work well enough
 
 WhatsApp has no menu and no list of orders, and there's no way to tell what has run out. Plus i don't think there's really a 
 delivery app that's actually on Babcock that's actually approved or not that i've seen one myself
 
-4. Interviews and survey
+3.4 Interviews and survey
 
-We spoke to three students and two vendors, and sent a short Google Form to course mates. Two more student interviews are still to come.
+We spoke to seven students and two vendors, and sent a short Google Form to course mates.
 
 Questions we asked the students were
 
