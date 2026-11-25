@@ -33,7 +33,7 @@ d. Buy snacks or skip the meal.
 
 2.3 Why the current options don't work well enough
 
-WhatsApp has no menu and no list of orders, and there's no way to tell what has run out. Plus i don't think there's really a delivery app that's actually on Babcock that's actually approved or not that i've seen one myself
+WhatsApp has no menu and no list of orders, and there's no way to tell what has run out. Plus i don't think there's really a delivery app that's actually on Babcock that's actually approved or not that i've seen one myself.
 
 2.4 Interviews and survey
 
