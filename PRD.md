@@ -185,7 +185,7 @@ Won't have this time: online payments, delivery, loyalty points, recommendations
 Right now, students can only order by walking up to a vendor at BUSA. The first version only needs to prove that a Babcock student can order and collect food from a BUSA vendor without standing in a queue. It includes:
 
 1. Student and vendor registration and login
-2. Vendor menu management
+2. Vendor menu management.
 3. Students browsing menus and placing a pickup order
 4. Vendors seeing orders and updating their status
 5. Students seeing the status of their order
