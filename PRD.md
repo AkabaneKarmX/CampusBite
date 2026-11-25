@@ -6,41 +6,36 @@ Date: 23/11/2026
 
 ---
 
- 1. Product overview
+1. Product overview
 
 CampusBite is a web app where students order food from campus vendors before they get there, then pick it up when it's ready. Vendors use the same app to see what has been ordered and to say when something is finished.
 
- 2. Problem statement
+2. Problem statement
 
 Students have a short gap between lectures, sometimes less than an hour. A good part of it goes on standing in line for food, and by the time you get to the front the thing you wanted is sometimes finished. Then you either settle for something else or go to class hungry.
 
 The vendors have a different version of the same problem. Everyone shows up at the same time, orders are shouted across and mistakes happen. Some vendors take orders on WhatsApp, but when they're busy serving they can't keep up with messages.
 
-Reminds me of a time i was at BUSA and wanted to get food(The mixed rice) and i had to wait because most of the customers are
-either girls or boys waiting to get the exact same food for their girlfriends. They were at least 15 in numbers and by the time
-it got to my turn, they ran out
+Reminds me of a time i was at BUSA and wanted to get food(The mixed rice) and i had to wait because most of the customers are either girls or boys waiting to get the exact same food for their girlfriends. They were at least 15 in numbers and by the time it got to my turn, they ran out
 
- 3. Research
-
-3.1 Who has the problem
+2.1 Who has the problem
 
 Mostly students on busy lecture days, and the vendors who serve them at break times. Lecturers and staff probably buy food too but we haven't looked at them, so they are outside this for now.
 
-3.2 How people deal with it now
+2.2 How people deal with it now
 
 From what we've seen and from talking to people,
 
 a. Walk there, queue, and accept the wait
 b. Ask a friend who is already close to the vendor to buy for them, then send the money by transfer
-c. Call or WhatsApp the vendor to order in advance. This works until the vendor is too busy to reply (Sometimes you just can't reach them) 
+c. Call or WhatsApp the vendor to order in advance. This works until the vendor is too busy to reply (Sometimes you just can't reach them)
 d. Buy snacks or skip the meal
 
-3.3 Why the current options don't work well enough
+2.3 Why the current options don't work well enough
 
-WhatsApp has no menu and no list of orders, and there's no way to tell what has run out. Plus i don't think there's really a 
-delivery app that's actually on Babcock that's actually approved or not that i've seen one myself
+WhatsApp has no menu and no list of orders, and there's no way to tell what has run out. Plus i don't think there's really a delivery app that's actually on Babcock that's actually approved or not that i've seen one myself
 
-3.4 Interviews and survey
+2.4 Interviews and survey
 
 We spoke to seven students and two vendors, and sent a short Google Form to course mates.
 
@@ -83,14 +78,34 @@ i. Vendor 2 (snacks and drinks stand): "My regulars message me on WhatsApp to ke
 
 j. Survey: 26 course mates replied. 81% buy food on campus at least three times a week. 69% have waited more than 15 minutes at BUSA in one break, and 58% have walked to a vendor and found the food finished. 46% have been late to a lecture or missed one because of the queue. 62% would use an app that lets them order ahead and pay at pickup. 15% would pay an extra fee. 12 of the 26 already try to order ahead on WhatsApp.
 
- 4. Business objectives
+3. Business objectives
 
 a. Reduce the time students spend waiting for food
 b. Help vendors cope with the rush without losing orders
 c. Get a few vendors and a decent number of students actually using it. A product nobody uses doesn't teach us anything
 d. Find out if students or vendors would be willing to pay for it later
 
- 5. Target users
+3.1 Business goals
+
+a. Get BUSA vendors on board: "I want to see my orders without shouting across the counter."
+b. Get more orders: "I want to know the food is there before I walk."
+c. Build trust: "I want my order to be ready when I arrive."
+d. Fewer disputes: "I want proof of what I ordered."
+
+3.2 User needs
+
+Take one need from above. A student says "I want to know if the food is available before I walk there." That turns into "The system shall show each menu item as available or sold out to logged-in students."
+
+3.3 Success metrics
+
+a. Registered students and approved vendors
+b. Orders placed per week
+c. Share of orders completed rather than cancelled or rejected
+d. Average time between an order being placed and being ready
+e. Students who come back and order more than once
+f. Problems reported
+
+4. Target users
 
 1. "Students" order food. They want it to be quick and they want to know before walking over whether the food is available
 
@@ -100,7 +115,7 @@ d. Find out if students or vendors would be willing to pay for it later
 
 A student here is only a buyer. Vendors get their own account type because what they need from the app is quite different
 
- 6. Stakeholders
+5. Stakeholders
 
 BUSA is the place on the Babcock campus where the vendors meet and where students go to buy food, snacks, ice cream and a lot of other things.
 
@@ -111,16 +126,7 @@ d. Babcock University management: rules about vending on campus, student welfare
 e. Babcock cafeteria management: whether they'd take part, and how it affects them
 f. Support (also us for now): handling complaints and reports
 
- 7. Business goals and user needs
-
-a. Get BUSA vendors on board: "I want to see my orders without shouting across the counter."
-b. Get more orders: "I want to know the food is there before I walk."
-c. Build trust: "I want my order to be ready when I arrive."
-d. Fewer disputes: "I want proof of what I ordered."
-
-Take one need from above. A student says "I want to know if the food is available before I walk there." That turns into "The system shall show each menu item as available or sold out to logged-in students."
-
- 8. User stories
+6. User stories
 
 Student:
 
@@ -143,7 +149,7 @@ Administrator:
 a. As an admin, I want to approve vendor accounts so that only real BUSA vendors are listed.
 b. As an admin, I want to see reported problems so that I can act on them.
 
- 9. Functional requirements
+7. Functional requirements
 
 a. FR-01: Students can register and log in.
 b. FR-02: Vendors can register and log in. An admin must approve the account before it goes live.
@@ -160,7 +166,7 @@ l. FR-12: Students can view their past orders.
 m. FR-13: Users can report a problem with an order or a vendor.
 n. FR-14: Admins can approve or suspend vendors and review reports.
 
- 10. Non-functional requirements
+8. Non-functional requirements
 
 a. Performance: menu pages should load in under 3 seconds on an average Babcock campus connection.
 b. Security: passwords are hashed and never stored in plain text. Vendors can only see and change their own menu and orders.
@@ -170,7 +176,9 @@ e. Scalability: it has to cope with the break-time rush. We'll set a number once
 f. Privacy: a student's name and phone number are only visible to the vendor handling that order.
 g. Usability: it must work well on a phone browser, since that is what most Babcock students will use.
 
- 11. Scope and priorities (MoSCoW)
+9. Scope and priorities
+
+Prioritised with MoSCoW:
 
 Must have: registration and login, vendor menus, placing a pickup order, order status updates, vendor view of incoming orders.
 
@@ -180,7 +188,7 @@ Could have: SMS or email notifications, vendor ratings, showing opening hours, o
 
 Won't have this time: online payments, delivery, loyalty points, recommendations, support for any campus other than Babcock.
 
- 12. The MVP
+9.1 The MVP
 
 Right now, students can only order by walking up to a vendor at BUSA. The first version only needs to prove that a Babcock student can order and collect food from a BUSA vendor without standing in a queue. It includes:
 
@@ -195,7 +203,7 @@ Payment is not part of the MVP. Students pay at pickup, by cash or transfer, the
 
 There are a lot of vendors at BUSA, so for the pilot we'd start with two of them and a small group of students, see what breaks, then widen it.
 
- 13. Acceptance criteria
+10. Acceptance criteria
 
 Place an order (FR-07)
 
@@ -208,7 +216,7 @@ f. A successful order is saved with status "pending" and the student sees a conf
 g. An invalid order is rejected with a clear error message.
 h. Submitting the same order twice doesn't create a duplicate.
 
- Add a menu item (FR-03)
+Add a menu item (FR-03)
 
 a. The vendor must be logged in and approved.
 b. Name and price are required.
@@ -216,7 +224,7 @@ c. Price must be greater than zero.
 d. The photo is optional.
 e. A vendor can only edit items on their own menu.
 
- Update order status (FR-09)
+Update order status (FR-09)
 
 a. Only the vendor who owns the order can change its status.
 b. Status moves forward only: pending, accepted, preparing, ready, collected. A vendor can reject an order while it is still pending.
@@ -305,16 +313,9 @@ c. A suspended vendor's menu is hidden and the vendor cannot accept new orders.
 d. Orders already accepted by a suspended vendor stay visible to the student.
 e. Each admin action records which admin did it and when.
 
-14. Success metrics
+11. Assumptions and open questions
 
-a. Registered students and approved vendors
-b. Orders placed per week
-c. Share of orders completed rather than cancelled or rejected
-d. Average time between an order being placed and being ready
-e. Students who come back and order more than once
-f. Problems reported
-
- 15. Assumptions
+11.1 Assumptions
 
 None of these are confirmed yet:
 
@@ -323,7 +324,7 @@ b. The internet at Babcock is good enough to use between classes.
 c. Babcock University is fine with this kind of platform for campus vendors.
 d. Students are happy to pay at pickup, by cash or transfer.
 
- 16. Open questions
+11.2 Open questions
 
 1. Will BUSA vendors take part, and what would persuade them?
 2. Do we need permission from Babcock University, the cafeteria management or whoever runs BUSA? We don't know yet.
@@ -333,13 +334,13 @@ d. Students are happy to pay at pickup, by cash or transfer.
 6. What do we do with orders nobody comes to pick up?
 7. How many orders can one vendor actually handle at peak time?
 
- 17. Risks
+11.3 Risks
 
 a. BUSA vendors may not want to use it. We start with one friendly vendor and keep the vendor side as simple as possible.
 b. Students may order and not show up. Vendors should be able to report no-shows, and we can think about limits later.
 c. Campus internet may be poor, so pages should stay light.
 d. Vendors may forget to mark things sold out, so that toggle should take one tap.
 
- 18. What comes next
+What comes next
 
 Week 5 is architecture and technology choices. Nothing above depends on a particular language or framework.
