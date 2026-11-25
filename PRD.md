@@ -119,12 +119,12 @@ A student here is only a buyer. Vendors get their own account type because what 
 
 BUSA is the place on the Babcock campus where the vendors meet and where students go to buy food, snacks, ice cream and a lot of other things.
 
-a. Our team (product owner): that it works and people use it
-b. Babcock students: fast food at a fair price
-c. BUSA vendors: more sales, fewer mix-ups
-d. Babcock University management: rules about vending on campus, student welfare
-e. Babcock cafeteria management: whether they'd take part, and how it affects them
-f. Support (also us for now): handling complaints and reports
+a. Our team (product owner): that it works and people use it.
+b. Babcock students: fast food at a fair price.
+c. BUSA vendors: more sales, fewer mix-ups.
+d. Babcock University management: rules about vending on campus, student welfare.
+e. Babcock cafeteria management: whether they'd take part, and how it affects them.
+f. Support (also us for now): handling complaints and reports.
 
 6. User stories
 
