@@ -26,10 +26,10 @@ Mostly students on busy lecture days, and the vendors who serve them at break ti
 
 From what we've seen and from talking to people,
 
-a. Walk there, queue, and accept the wait
-b. Ask a friend who is already close to the vendor to buy for them, then send the money by transfer
-c. Call or WhatsApp the vendor to order in advance. This works until the vendor is too busy to reply (Sometimes you just can't reach them)
-d. Buy snacks or skip the meal
+a. Walk there, queue, and accept the wait.
+b. Ask a friend who is already close to the vendor to buy for them, then send the money by transfer.
+c. Call or WhatsApp the vendor to order in advance. This works until the vendor is too busy to reply (Sometimes you just can't reach them).
+d. Buy snacks or skip the meal.
 
 2.3 Why the current options don't work well enough
 
